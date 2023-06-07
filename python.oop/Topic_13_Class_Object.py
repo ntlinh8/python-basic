@@ -85,7 +85,7 @@ class Animal:
     def noicing(self, noice):
         print("This is ", self.animalName, " and I'm ", noice)
 
-# So I have some type of animals, and they will inheritance the Animal class
+# So I have some type of animals, and they will inherit the Animal class
 class Bird(Animal):
     def __init__(self, animalName, legNumber, eyeNumber, flyHeigh) -> None:
         super().__init__(animalName, legNumber, eyeNumber)
@@ -103,7 +103,7 @@ class Dog(Animal):
 dog = Dog("Bob", 4, 2, True)
 bird = Bird("Jennan", 2, 2, 1500)
 
-# I can access to the method of animal class because this method was inheritanced by child class
+# I can access to the method of animal class because this method was inherit by child class
 dog.eatting("meat")
 bird.eatting("nut")
 dog.noicing("go go")
